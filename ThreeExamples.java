@@ -1,12 +1,9 @@
 public class ThreeExamples {
-    public static void main(String[ ] args)
-    {
-        System.out.printLn("");
+    public static void main(String[]args)
+    { 
+        System.out.println("Hello");
+    }
 
 
 
     }
-
-    
-
-}
