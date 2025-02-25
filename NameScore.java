@@ -1,8 +1,8 @@
 /************************************
-*Project: Name
+*Project: score board
 *Programmer: Qealtz
 *Date: Febuary 13th 2025
-*Program Name: Name.java
+*Program Name: NameScore.java
 *************************************/
 
 public class NameScore {
@@ -17,4 +17,5 @@ public class NameScore {
 
 
 
-    
+/*my first program
+/*atleast i'm trying!*/

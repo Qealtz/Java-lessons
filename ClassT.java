@@ -1,8 +1,8 @@
 /************************************
-*Project: Name
+*Project: draw a T
 *Programmer: Qealtz
 *Date: Febuary 13th 2025
-*Program Name: Name.java
+*Program Name: ClassT.java
 *************************************/
 
 
