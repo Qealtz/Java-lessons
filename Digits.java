@@ -1,3 +1,4 @@
+import java.util.*;
 /************************************
 *Project: isolate the digits in a number
 *Programmer: Qealtz
@@ -11,11 +12,16 @@ public class Digits {
     {
         int number;
 
-        number = 4526;
+        //number = 4168;
         int ones;
         int tens;
         int hundreds;
         int thousands;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a four digit number: ");
+        number = input.nextInt();
+        input.close();
+
 
         ones = number % 10;
         tens = (number / 10) % 10;
