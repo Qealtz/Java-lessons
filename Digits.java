@@ -1,5 +1,5 @@
 /************************************
-*Project: isolate the 3 digits in a 3 digit number
+*Project: isolate the digits in a number
 *Programmer: Qealtz
 *Date: Febuary 25th 2025
 *Program Name: Digits.java
