@@ -11,19 +11,22 @@ public class Digits {
     {
         int number;
 
-        number = 526;
+        number = 4526;
         int ones;
         int tens;
         int hundreds;
+        int thousands;
 
         ones = number % 10;
         tens = (number / 10) % 10;
         hundreds = ((number/10)/10) % 10;
+        thousands = (((number/10)/10)/10) % 10;
 
         System.out.println("If your number is " + number + " , then...");
         System.out.println("Ones are " + ones);
         System.out.println("Tens are " + tens);
         System.out.println("Hundreds are " + hundreds);
+        System.out.println("Thousands are " + thousands);
 
 
 
