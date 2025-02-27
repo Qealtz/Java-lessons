@@ -12,23 +12,23 @@ public class GradeAvg {
     
     {
         
-        int gradeOne;
-        int gradeTwo;
-        int gradeThree;
-        int gradeFour;
-        int gradeFive;
-        int gradeAverage;
+        double gradeOne;
+        double gradeTwo;
+        double gradeThree;
+        double gradeFour;
+        double gradeFive;
+        double gradeAverage;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your first of five grades : ");
-        gradeOne = input.nextInt();
+        gradeOne = input.nextDouble();
         System.out.print("Enter your second of five grades : ");
-        gradeTwo = input.nextInt();
+        gradeTwo = input.nextDouble();
         System.out.print("Enter your third of five grades : ");
-        gradeThree = input.nextInt();
+        gradeThree = input.nextDouble();
         System.out.print("Enter your fourth of five grades : ");
-        gradeFour = input.nextInt();
+        gradeFour = input.nextDouble();
         System.out.print("Enter your fifth of five grades : ");
-        gradeFive = input.nextInt();
+        gradeFive = input.nextDouble();
         input.close();
 
         gradeAverage = (gradeOne + gradeTwo + gradeThree + gradeFour + gradeFive) / 5;
