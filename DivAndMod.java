@@ -34,8 +34,12 @@ public class DivAndMod {
         int answerFour = intTwo % intOne;
         
 
-        System.out.println(intOne +  " / " + intTwo " = " + answerOne );
-        System.out.println(intOne +  " % " + intTwo " = " + answerOne );
+        
+        System.out.println(intOne + " Divided by " + intTwo + " Is equal to " + answerOne);
+        System.out.println(intOne + " Modular divided by " + intTwo + " Is equal to " + answerTwo);
+        System.out.println("\n" + intTwo + " Divided by " + intOne + " Is equal to " + answerThree);
+        System.out.println(intTwo + " Modular Divided by " + intOne + " Is equal to " + answerFour);
+
     
 }
 }
