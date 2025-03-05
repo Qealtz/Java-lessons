@@ -43,12 +43,14 @@ public class Election {
         System.out.print("How many votes did Martinez get in Connecticut? : ");
         martinezCN = input.nextDouble();
 
+        input.close();
+
         Awbrey = awbreyNY + awbreyNJ + awbreyCN;
         Martinez = martinezNY + martinezNJ + martinezCN;
         total = Awbrey + Martinez;
 
-        double awbreyPercentage = (Awbrey / (Awbrey + Martinez)) * 100;
-        double martinezPercentage = (Martinez / (Awbrey + Martinez)) *100;
+        double awbreyPercentage = Awbrey / total;
+        double martinezPercentage = Martinez /total;
 
 
         System.out.println(" Candidate \t\t Votes \t Percentage");
