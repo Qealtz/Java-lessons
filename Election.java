@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
+import java.text.NumberFormat;
 
 /************************************
 *Project: electon average
@@ -23,6 +24,9 @@ public class Election {
         double martinezCN;
         double Martinez;
         double total;
+
+
+        NumberFormat percent= NumberFormat.getPercentInstance();
 
        
         System.out.print("How many votes did Awbrey get in New York? : ");
@@ -48,8 +52,8 @@ public class Election {
 
 
         System.out.println(" Candidate \t\t Votes \t Percentage");
-        System.out.println("Awbrey \t\t" + Awbrey + "\t" + awbreyPercentage);
-        System.out.println("Martinez \t\t" + Martinez + "\t" + martinezPercentage);
+        System.out.println("Awbrey \t\t" + Awbrey + "\t" + percent.format(awbreyPercentage));
+        System.out.println("Martinez \t\t" + Martinez + "\t" + percent.format(martinezPercentage));
         System.out.println("\n TOTAL VOTES: " + total);
 
 
